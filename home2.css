@@ -1,0 +1,523 @@
+body{
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+::root{
+      --preset-color1:#fff;
+      --preset-color2:#333;
+      --preset-shadow:0 0 10px;
+}
+h3{
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  line-height: 1;
+}
+.HOME{
+     margin: 1rem 0 0 -20rem;
+     color:var(--preset-color1);
+}
+.CONTACT{
+        margin: 1rem 0 0 -10rem;
+        color:var(--preset-color1);
+}
+.MENIU{
+      margin: 1rem 0 0 0rem;
+      color:var(--preset-color1);
+}
+.GALLERI{
+        margin: 1rem 0 0 10rem;
+        color:var(--preset-color1);
+}
+.bara2{
+      top: 0%;
+      left: 43.5%;
+      transform: translate(-50%,-50%);
+      position: absolute;
+      height: 4rem;
+      width: 0.4rem;
+      background:var(--preset-color2);
+      box-shadow: 0 0 1rem;
+      animation-timing-function: linear;
+      animation-duration: 1s;
+      animation-name: bara2;
+      animation-iteration-count: inherit;
+}
+
+.bara1{
+      top: 0%;
+      left: 48%;
+      transform: translate(-50%,-50%);
+      position: absolute;
+      height: 4rem;
+      width: 0.4rem;
+      background:var(--preset-color2);
+      box-shadow: 0 0 1rem;
+      animation-timing-function: linear;
+      animation-duration: 1s;
+      animation-name: bara1;
+      animation-iteration-count: inherit
+}
+.bara3{
+      top: 0%;
+      left: 52%;
+      transform: translate(-50%,-50%);
+      position: absolute;
+      height: 4rem;
+      width: 0.4rem;
+      background: #333;
+      box-shadow: 0 0 1rem;
+      animation-timing-function: linear;
+      animation-duration: 1s;
+      animation-name: bara3;
+      animation-iteration-count: inherit
+}
+@keyframes bara1 {
+0%{
+  top: 0%;
+  height: 0rem;
+  width: 0.4rem;
+}   
+100%{
+    height: 4rem;
+  } 
+}
+@keyframes bara2 {
+0%{
+  top: 0%;
+  height: 0;
+  width: 0.4rem;
+}   
+100%{
+  top: 5%;
+  height: 4rem;
+ } 
+}
+@keyframes bara3 {
+0%{
+  top: 0%;
+  height: 0;
+  width: 0.4rem;
+}   
+100%{
+    top: 5%;
+    height: 4rem;
+ } 
+}
+/* pizza 1 START*/
+.pizza1{
+       position: absolute;
+       width: 300px;
+       height: 250px;
+       display: flex;
+       left:10rem;
+       top: 8rem;
+       margin: 0;
+       z-index: 2;
+       transition-timing-function: ease-in  ;
+       transition-duration: 0.5s;
+}
+.pizza1:hover {
+  box-shadow: 0 0 10px;
+
+}
+.activare{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  height: 1000px;
+  width: 1000px;
+  background: #333;
+}
+
+.Colona{
+  top: 420px;
+  left: 160px;
+  height: 5px;
+  width:300px;
+  position: absolute;
+  background: #222;
+  box-shadow: 0 0 10px;
+}
+.PC{
+  position:absolute;
+  top: -900%;
+  left:50%;
+  transform:translate(-50%);
+}
+/*Animatie ar1 Start*/
+.ar1{
+  position:absolute;
+  height: 5px;
+  width:5px;
+  top: 115px;
+  left: 145px;
+  background: #333;
+  z-index:4;
+  animation-name: ar1;
+  animation: 1s;
+  animation-timing-function: linear;
+}
+@keyframes ar1 {
+  0%{
+    height: 5px;
+    width:5px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background: red;
+  }
+  100%{
+    height: 50px;
+    width:50px;
+    top:155px;
+    left:195px;
+    background: red;
+    
+  }
+}
+
+
+/*Animatie ar1 Start*/
+/* pizza 1 FINAL*/
+
+/* pizza 2 START*/
+.pizza2{
+  position: absolute;
+  width: 300px;
+  height: 250px;
+  display: flex;
+  left:30rem;
+  top: 8rem;
+  margin: 0;
+  z-index: 2;
+  transition-timing-function: ease-in  ;
+  transition-duration: 0.5s;
+}
+.pizza2:hover {
+box-shadow: 0 0 10px;
+
+}
+.Colona2{
+top: 420px;
+left: 480px;
+height: 5px;
+width:300px;
+position: absolute;
+background: #222;
+box-shadow: 0 0 10px;
+}
+.PC2{
+position:absolute;
+top: -2.8rem;
+left:5rem;
+}
+/* pizza 2 FINAL*/
+
+/* pizza 3 START*/
+.pizza3{
+  position: absolute;
+  width: 300px;
+  height: 250px;
+  display: flex;
+  left:50rem;
+  top: 8rem;
+  margin: 0;
+  z-index: 2;
+  transition-timing-function: ease-in  ;
+  transition-duration: 0.5s;
+}
+.pizza3:hover {
+box-shadow: 0 0 10px;
+}
+.Colona3{
+top: 420px;
+left: 800px;
+height: 5px;
+width:300px;
+position: absolute;
+background: #222;
+box-shadow: 0 0 10px;
+}
+.PC3{
+position:absolute;
+top: -2.8rem;
+left:5rem;
+}
+/* pizza 3 FINAL*/
+
+/* pizza 4 START*/
+.pizza4{
+  position: absolute;
+  width: 300px;
+  height: 250px;
+  display: flex;
+  left:70rem;
+  top: 8rem;
+  margin: 0;
+  z-index: 2;
+  transition-timing-function: ease-in  ;
+  transition-duration: 0.5s;
+}
+.pizza4:hover {
+box-shadow: 0 0 10px;
+}
+.Colona4{
+top: 420px;
+left: 1120px;
+height: 5px;
+width:300px;
+position: absolute;
+background: #222;
+box-shadow: 0 0 10px;
+}
+.PC4{
+position:absolute;
+top: -2.8rem;
+left:5rem;
+}
+/* pizza 4 FINAL*/
+
+/* pizza 5 START*/
+.pizza5{
+  position: absolute;
+  width: 300px;
+  height: 250px;
+  display: flex;
+  left:90rem;
+  top: 8rem;
+  margin: 0;
+  z-index: 2;
+  transition-timing-function: ease-in  ;
+  transition-duration: 0.5s;
+}
+.pizza5:hover {
+box-shadow: 0 0 10px;
+}
+.Colona5{
+top: 420px;
+left: 1440px;
+height: 5px;
+width:300px;
+position: absolute;
+background: #222;
+box-shadow: 0 0 10px;
+}
+.PC5{
+position:absolute;
+top: -2.8rem;
+left:5rem;
+}
+/* pizza 5 FINAL*/
+
+/* pizza 6 START*/
+.pizza6{
+  position: absolute;
+  width: 300px;
+  height: 250px;
+  display: flex;
+  left:10rem;
+  top: 30rem;
+  margin: 0;
+  z-index: 2;
+  transition-timing-function: ease-in  ;
+  transition-duration: 0.5s;
+}
+.pizza6:hover {
+box-shadow: 0 0 10px;
+
+}
+.activare{
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+position: absolute;
+height: 1000px;
+width: 1000px;
+background: #333;
+}
+
+.Colona6{
+top: 770px;
+left: 160px;
+height: 5px;
+width:300px;
+position: absolute;
+background: #222;
+box-shadow: 0 0 10px;
+}
+.PC6{
+position:absolute;
+top: -900%;
+left:50%;
+transform:translate(-50%);
+}
+/* pizza 6 FINAL*/
+
+/* pizza 7 START*/
+.pizza7{
+  position: absolute;
+  width: 300px;
+  height: 250px;
+  display: flex;
+  left:30rem;
+  top: 30rem;
+  margin: 0;
+  z-index: 2;
+  transition-timing-function: ease-in  ;
+  transition-duration: 0.5s;
+}
+.pizza7:hover {
+box-shadow: 0 0 10px;
+
+}
+.Colona7{
+top: 770px;
+left: 480px;
+height: 5px;
+width:300px;
+position: absolute;
+background: #222;
+box-shadow: 0 0 10px;
+}
+.PC7{
+position:absolute;
+top: -2.8rem;
+left:5rem;
+}
+/* pizza 7 FINAL*/
+
+/* pizza 8 START*/
+.pizza8{
+  position: absolute;
+  width: 300px;
+  height: 250px;
+  display: flex;
+  left:50rem;
+  top: 30rem;
+  margin: 0;
+  z-index: 2;
+  transition-timing-function: ease-in  ;
+  transition-duration: 0.5s;
+}
+.pizza8:hover {
+box-shadow: 0 0 10px;
+}
+.Colona8{
+top: 770px;
+left: 800px;
+height: 5px;
+width:300px;
+position: absolute;
+background: #222;
+box-shadow: 0 0 10px;
+}
+.PC8{
+position:absolute;
+top: -2.8rem;
+left:5rem;
+}
+/* pizza 8 FINAL*/
+
+/* pizza 9 START*/
+.pizza9{
+  position: absolute;
+  width: 300px;
+  height: 250px;
+  display: flex;
+  left:70rem;
+  top: 30rem;
+  margin: 0;
+  z-index: 2;
+  transition-timing-function: ease-in  ;
+  transition-duration: 0.5s;
+}
+.pizza9:hover {
+box-shadow: 0 0 10px;
+}
+.Colona9{
+top: 770px;
+left: 1120px;
+height: 5px;
+width:300px;
+position: absolute;
+background: #222;
+box-shadow: 0 0 10px;
+}
+.PC9{
+position:absolute;
+top: -2.8rem;
+left:5rem;
+}
+/* pizza 9 FINAL*/
+
+/* pizza 10 START*/
+.pizza10{
+  position: absolute;
+  width: 300px;
+  height: 250px;
+  display: flex;
+  left:90rem;
+  top: 30rem;
+  margin: 0;
+  z-index: 2;
+  transition-timing-function: ease-in  ;
+  transition-duration: 0.5s;
+}
+.pizza10:hover {
+box-shadow: 0 0 10px;
+}
+.Colona10{
+top: 770px;
+left: 1440px;
+height: 5px;
+width:300px;
+position: absolute;
+background: #222;
+box-shadow: 0 0 10px;
+}
+.PC10{
+position:absolute;
+top: -2.8rem;
+left:5rem;
+}
+/* pizza 10 FINAL*/
+
+.BARA1{
+      position: absolute;
+      top: 0px;
+      margin-left: 0;
+      width: 100%;
+      height: 100px;
+      max-height: 100px;
+      background: #222;
+}
+.BARA2{
+      position: fixed;
+      left: 0%;
+      top: 0%;
+      height: 100%;
+      width: 100px;
+      background-color:#999;
+      box-shadow: 0 0 1rem;
+      z-index:2;
+}
+p{
+  padding: 0 0 0 0 ;
+  margin: 2rem 0rem 0rem 0rem;
+}
+::-webkit-scrollbar{
+  width: 0.25rem;
+}
+body::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+body::-webkit-scrollbar-thumb {
+  background: #6649b8;
+}

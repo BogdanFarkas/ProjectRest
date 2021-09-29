@@ -1,0 +1,189 @@
+body{
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-image: url(./poze/f.jpg);
+}
+h3{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 1;
+}
+.HOME{
+    margin: 1rem 0 0 -20rem;
+    color: #fff;
+}
+.CONTACT{
+    margin: 1rem 0 0 -10rem;
+    color: #fff;
+}
+.MENIU{
+    margin: 1rem 0 0 0rem;
+    color: #fff;
+}
+.GALLERI{
+    margin: 1rem 0 0 10rem;
+    color: #fff;
+}
+.bara2{
+    top: 0%;
+    left: 43.5%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    height: 4rem;
+    width: 0.4rem;
+    background: #333;
+    box-shadow: 0 0 1rem;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-name: bara2;
+    animation-iteration-count: inherit;
+}
+
+.bara1{
+    top: 0%;
+    left: 48%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    height: 4rem;
+    width: 0.4rem;
+    background: #333;
+    box-shadow: 0 0 1rem;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-name: bara1;
+    animation-iteration-count: inherit
+}
+.bara3{
+    top: 0%;
+    left: 52%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    height: 4rem;
+    width: 0.4rem;
+    background: #333;
+    box-shadow: 0 0 1rem;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-name: bara3;
+    animation-iteration-count: inherit
+}
+@keyframes bara1 {
+    0%{
+        top: 0%;
+        height: 0rem;
+        width: 0.4rem;
+      }   
+    100%{
+
+        height: 4rem;
+        } 
+    }
+@keyframes bara2 {
+    0%{
+        top: 0%;
+        height: 0;
+        width: 0.4rem;
+      }   
+    100%{
+        top: 5%;
+        height: 4rem;
+        } 
+    }
+@keyframes bara3 {
+    0%{
+        top: 0%;
+        height: 0;
+        width: 0.4rem;
+      }   
+        100%{
+        top: 5%;
+        height: 4rem;
+            } 
+      }
+      .calzzone{
+        width: 375.98px;
+        height: 250.66px;
+        display: flex;
+        min-height: 15rem;
+        min-width: 15rem;
+        margin: 8rem 0 0 -90rem;
+        box-shadow: 0 0 10rem;
+        border-radius: 10%;
+      }
+      .chicken{
+        width: 375.98px;
+        height: 250.66px;
+        display: flex;
+        min-height: 15rem;
+        min-width: 15rem;
+        margin: -15.5rem 0 0 -30rem;
+        box-shadow: 0 0 10rem;
+        border-radius: 10%;
+      }
+.paste1{
+    display: flex;
+    height: 25%;
+    width: 25%;
+    padding-right: 60%;
+    padding-top: 5%;
+    box-shadow: 10rem 0 0 0;
+}
+.paste2{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 60%;
+    width: 25%;
+    padding-left: 0%;
+    padding-top:5%;
+    max-height: 320px;
+
+}
+.paste3{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 60%;
+    width: 25%;
+    padding-left: 60%;
+    padding-top:5%;
+    max-height: 320px;
+}
+.paste4{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 60%;
+    width: 25%;
+    padding-left: 60%;
+    padding-top:30%;
+    max-height: 320px;
+}
+.paste5{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 60%;
+    width: 25%;
+    padding-left: 0%;
+    padding-top:30%;
+    max-height: 320px;
+}
+
+
+
+
+
+
+
